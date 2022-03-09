@@ -2,13 +2,13 @@
   "name": "unit-testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test" : "mocha test-cases"
+    "test" : "mocha test-cases --exit"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chai": "^4.3.6",
     "express": "^4.17.3",
